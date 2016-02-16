@@ -25,6 +25,6 @@ def nth_prime_number(n):
         if is_prime(i):
             primes.append(i)
 
-        i += 1
+        i += 2
 
     return primes[n-1]
