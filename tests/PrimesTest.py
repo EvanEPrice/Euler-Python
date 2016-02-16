@@ -6,10 +6,15 @@ class PrimesTest(unittest.TestCase):
         self.assertEqual(Primes.isPrime(23), True)
 
     def test_isPrimeShouldReturnFalse(self):
-        self.assertEqual(Primes.isPrime(12), False)
+        self.assertEqual(Primes.isPrime(9), False)
 
-    def test(self):
-        self.assertEqual(Primes.isPrime(600851475143), False)
+    def test_nth_prime_number_6th(self):
+        self.assertEqual(Primes.nth_prime_number(6), 13)
+
+    def test_nth_prime_number_2nd(self):
+        self.assertEqual(Primes.nth_prime_number(2), 3)
+
+
 
 
 if __name__ == '__main__':
