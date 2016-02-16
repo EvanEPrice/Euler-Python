@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb70bd88-368b-4f82-9db9-557e5b5b55aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/problems/Problem9.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/Primes.py" afterPath="$PROJECT_DIR$/modules/Primes.py" />
     </list>
     <ignored path="Euler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,11 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimesTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimesTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/PrimesTest.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem9.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/Problem9.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.29668412">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,6 +113,7 @@
         <option value="$PROJECT_DIR$/problems/Problem7.py" />
         <option value="$PROJECT_DIR$/problems/Problem8.py" />
         <option value="$PROJECT_DIR$/modules/Primes.py" />
+        <option value="$PROJECT_DIR$/problems/Problem9.py" />
       </list>
     </option>
   </component>
@@ -203,68 +214,7 @@
       <recent name="D:\Programming\Python\Euler" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest PrimesTest.test_nth_prime_number_6th (2)">
-    <configuration default="false" name="Unittest PrimesTest.test_isPrimeShouldReturnFalse" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/PrimesTest.py" />
-      <option name="CLASS_NAME" value="PrimesTest" />
-      <option name="METHOD_NAME" value="test_isPrimeShouldReturnFalse" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest PrimesTest.test_nth_prime_number_6th (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/PrimesTest.py" />
-      <option name="CLASS_NAME" value="PrimesTest" />
-      <option name="METHOD_NAME" value="test_nth_prime_number_6th" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Problem7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/Problem7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Problem9">
     <configuration default="false" name="Problem8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,6 +252,67 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest PrimesTest.test_nth_prime_number_2nd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Euler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/PrimesTest.py" />
+      <option name="CLASS_NAME" value="PrimesTest" />
+      <option name="METHOD_NAME" value="test_nth_prime_number_2nd" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest PrimesTest.test_isPrimeShouldReturnFalse" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Euler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/PrimesTest.py" />
+      <option name="CLASS_NAME" value="PrimesTest" />
+      <option name="METHOD_NAME" value="test_isPrimeShouldReturnFalse" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Problem9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Euler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/Problem9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -427,19 +438,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_isPrimeShouldReturnFalse" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_nth_prime_number_6th (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Problem7" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Problem8" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_nth_prime_number_6th (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Problem8" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_nth_prime_number_6th (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_nth_prime_number_2nd" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_isPrimeShouldReturnFalse" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Problem9" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_nth_prime_number_6th (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Problem8" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Problem7" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_nth_prime_number_6th (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_isPrimeShouldReturnFalse" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Problem9" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_isPrimeShouldReturnFalse" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_nth_prime_number_2nd" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest PrimesTest.test_nth_prime_number_6th (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Problem8" />
       </list>
     </recent_temporary>
   </component>
@@ -463,14 +474,8 @@
     <history-entry file="Unittest_PrimesTest_test_isPrimeShouldReturnFalse - 2016.02.15 at 21h 37m 24s.xml">
       <configuration name="Unittest PrimesTest.test_isPrimeShouldReturnFalse" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_PrimesTest_test_nth_prime_number - 2016.02.15 at 21h 27m 06s.xml">
-      <configuration name="Unittest PrimesTest.test_nth_prime_number" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_PrimesTest_test_nth_prime_number - 2016.02.15 at 21h 27m 25s.xml">
-      <configuration name="Unittest PrimesTest.test_nth_prime_number" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_PrimesTest_test_nth_prime_number - 2016.02.15 at 21h 28m 53s.xml">
-      <configuration name="Unittest PrimesTest.test_nth_prime_number" configurationId="tests" />
+    <history-entry file="Unittest_PrimesTest_test_isPrimeShouldReturnFalse - 2016.02.16 at 08h 30m 35s.xml">
+      <configuration name="Unittest PrimesTest.test_isPrimeShouldReturnFalse" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_PrimesTest_test_nth_prime_number_2nd - 2016.02.15 at 21h 29m 51s.xml">
       <configuration name="Unittest PrimesTest.test_nth_prime_number_2nd" configurationId="tests" />
@@ -481,26 +486,32 @@
     <history-entry file="Unittest_PrimesTest_test_nth_prime_number_2nd - 2016.02.15 at 21h 31m 25s.xml">
       <configuration name="Unittest PrimesTest.test_nth_prime_number_2nd" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittest_PrimesTest_test_nth_prime_number_2nd - 2016.02.16 at 08h 30m 29s.xml">
+      <configuration name="Unittest PrimesTest.test_nth_prime_number_2nd" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittest_PrimesTest_test_nth_prime_number_6th - 2016.02.15 at 21h 31m 34s.xml">
       <configuration name="Unittest PrimesTest.test_nth_prime_number_6th" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_PrimesTest_test_nth_prime_number_6th_(1) - 2016.02.15 at 21h 37m 44s.xml">
       <configuration name="Unittest PrimesTest.test_nth_prime_number_6th (1)" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittest_PrimesTest_test_nth_prime_number_6th_(2) - 2016.02.16 at 08h 30m 12s.xml">
+      <configuration name="Unittest PrimesTest.test_nth_prime_number_6th (2)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.50421494" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.50632244" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49578503" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.49578503" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.49367756" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -658,8 +669,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/PrimesTest.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/Problem9.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29668412">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
