@@ -3,10 +3,10 @@ from modules import Primes
 
 class PrimesTest(unittest.TestCase):
     def test_isPrimeShouldReturnTrue(self):
-        self.assertEqual(Primes.isPrime(23), True)
+        self.assertEqual(Primes.is_prime(23), True)
 
     def test_isPrimeShouldReturnFalse(self):
-        self.assertEqual(Primes.isPrime(9), False)
+        self.assertEqual(Primes.is_prime(9), False)
 
     def test_nth_prime_number_6th(self):
         self.assertEqual(Primes.nth_prime_number(6), 13)

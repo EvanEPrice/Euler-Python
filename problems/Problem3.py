@@ -13,7 +13,7 @@ for i in range(smallestFactor, largestFactor):
     if Factors.isFactor(problemNumber,i):
         counterpart = int(problemNumber/i)
 
-        if(Primes.isPrime(counterpart)):
+        if(Primes.is_prime(counterpart)):
             largestPrimeFactor = counterpart
             print(largestPrimeFactor)
             break

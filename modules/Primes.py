@@ -1,10 +1,11 @@
 from modules import Factors
 
-def isPrime(number):
-    if(number == 2):
+
+def is_prime(number):
+    if number == 2:
         return True
 
-    if(number %2 == 0):
+    if number %2 == 0:
         return False
 
     factor = 3
@@ -15,12 +16,13 @@ def isPrime(number):
 
     return True
 
+
 def nth_prime_number(n):
     primes = []
     i = 2
 
-    while(len(primes) < n):
-        if(isPrime(i)):
+    while len(primes) < n:
+        if is_prime(i):
             primes.append(i)
 
         i += 1
