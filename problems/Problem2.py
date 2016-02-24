@@ -3,10 +3,16 @@
 
 from modules.Fibonacci import fibonacciNumbersBelow
 
-sequence = fibonacciNumbersBelow(4000000)
-sum = 0
-for number in sequence:
-    if number % 2 == 0:
-       sum += number
 
-print(sum)
+def solve():
+    sequence = fibonacciNumbersBelow(4000000)
+    problem_sum = 0
+    for number in sequence:
+        if number % 2 == 0:
+            problem_sum += number
+
+    return problem_sum
+
+
+solution = solve()
+print(solution)

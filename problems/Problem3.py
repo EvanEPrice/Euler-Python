@@ -3,19 +3,20 @@ from modules import Primes
 from modules import Factors
 
 problemNumber = 600851475143
-largestPrimeFactor = 0
 
-smallestFactor = Factors.smallestFactorOf(problemNumber)
-largestFactor = int(problemNumber/smallestFactor)
 
-for i in range(smallestFactor, largestFactor):
+def solve():
+    smallest_factor = Factors.smallestFactorOf(problemNumber)
+    largest_factor = int(problemNumber/smallest_factor)
 
-    if Factors.isFactor(problemNumber,i):
-        counterpart = int(problemNumber/i)
+    for i in range(smallest_factor, largest_factor):
+    
+        if Factors.isFactor(problemNumber, i):
+            counterpart = int(problemNumber/i)
+    
+            if Primes.is_prime(counterpart):
+                return counterpart
 
-        if(Primes.is_prime(counterpart)):
-            largestPrimeFactor = counterpart
-            print(largestPrimeFactor)
-            break
+largest_prime_factor = solve()
 
-print("done")
+print(largest_prime_factor)
